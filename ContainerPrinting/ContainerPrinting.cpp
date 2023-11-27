@@ -1,5 +1,5 @@
 // ContainerPrinting.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//Нужно реализовать шаблонную функцию, которая печатает содержимое контейнера.Контейнер может быть любым
+//РќСѓР¶РЅРѕ СЂРµР°Р»РёР·РѕРІР°С‚СЊ С€Р°Р±Р»РѕРЅРЅСѓСЋ С„СѓРЅРєС†РёСЋ, РєРѕС‚РѕСЂР°СЏ РїРµС‡Р°С‚Р°РµС‚ СЃРѕРґРµСЂР¶РёРјРѕРµ РєРѕРЅС‚РµР№РЅРµСЂР°.РљРѕРЅС‚РµР№РЅРµСЂ РјРѕР¶РµС‚ Р±С‹С‚СЊ Р»СЋР±С‹Рј
 
 #include <iostream>
 #include <vector>
@@ -22,7 +22,7 @@ void print_container(TContainer& container) {
 int main()
 {
     std::set<std::string> test_set = { "one", "two", "three", "four" };
-    print_container(test_set); // four one three two. помните почему такой порядок? :)
+    print_container(test_set); // four one three two. РїРѕРјРЅРёС‚Рµ РїРѕС‡РµРјСѓ С‚Р°РєРѕР№ РїРѕСЂСЏРґРѕРє? :)
     
     std::list<std::string> test_list = { "one", "two", "three", "four" };
     print_container(test_list); // one, two, three, four
